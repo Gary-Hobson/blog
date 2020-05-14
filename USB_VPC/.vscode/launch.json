@@ -1,0 +1,48 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Blink",
+            "cwd": "${workspaceRoot}",
+            "request": "launch", 
+            "type": "cppdbg",
+            "program": "${workspaceRoot}/build/${workspaceRootFolderName}.elf",  // 改成自己的项目生成的elf文件路径
+            "stopAtEntry": false,
+            "externalConsole": false,
+            "preLaunchTask": "build",
+            "MIMode": "gdb",
+            "miDebuggerPath": "arm-none-eabi-gdb.exe", // 配置gdb路径     
+            "targetArchitecture": "arm",   // 目标架构，改成arm
+            "setupCommands": [ // 进入GDB以后，自动执行的一些命令  
+                {
+                    "description": "连接GDB Server",
+                    "text": "target remote localhost:3333",
+                    "ignoreFailures": false
+                },
+                {
+                    "description": "选择调试文件(.elf)到gdb",
+                    "text": "file C:/Users/garyh/OneDrive/workspace/STM32/${workspaceRootFolderName}/build/${workspaceRootFolderName}.elf", // 改成自己的项目生成的elf文件路径，不能使用//，必须要为\
+                    "ignoreFailures": false
+                },
+                {
+                    "description": "Halt",
+                    "text": "mon halt",
+                    "ignoreFailures": false
+                },
+                {
+                    "description": "Reset MCU",
+                    "text": "mon reset init",
+                    "ignoreFailures": false
+                },
+                {
+                    "description": "下载代码到MCU",
+                    "text": "load",
+                    "ignoreFailures": false
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build&&download",
+            "type": "shell",
+            "command": "make all download reset",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "make -j all",
+        },
+        {
+            "label": "reset",
+            "type": "shell",
+            "command": "make reset",
+        },
+        {
+            "label": "run openocd",
+            "type": "shell",
+            "command": "make debug"  
+        },
+        {
+            "label": "download",
+            "type": "shell",
+            "command": "make download"  
+        }
+    ]
+}

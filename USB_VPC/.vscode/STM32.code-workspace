@@ -1,0 +1,27 @@
+{
+	"keybinding":"",
+	"folders": [
+		{
+			"path": "../"
+		}
+	],
+	"settings": {
+		"editor.tabSize": 4,
+		"files.associations": {
+			"cinttypes": "cpp",
+			"softiic.h": "c",
+			"cmath": "c",
+			"*.tcc": "c",
+			"cstdlib": "c",
+			"main.h": "c",
+			"stm32f1xx_hal.h": "c",
+			"stm32f1xx_hal_conf.h": "c",
+			"stm32f1xx_hal_rcc.h": "c",
+			"stm32f1xx_hal_def.h": "c",
+			"stm32f1xx.h": "c",
+			"msp.h": "c",
+			"application.h": "c",
+			"usbd_cdc_if.h": "c"
+		},
+	},
+}
