@@ -1,5 +1,8 @@
 # 博客附件
-我CSDN 博客的使用工程代码及其他文件
+博客的使用工程代码及其他文件
+
+[gitee 地址](https://gitee.com/garyhobson/Blog-Attachment)  
+[github 地址](https://github.com/Gary-Hobson/Blog-Attachment)
 
 ## STM32 USB虚拟串口
 1. **博客名**： STM32 USB虚拟串口工程   
@@ -11,3 +14,7 @@
 2. **内容简介**： 介绍常见电容的尺寸、容量和封装关系
 3. **博客地址**：[电容尺寸及封装PCB库](https://blog.csdn.net/mirco_mcu/article/details/82147614)
 
+## 博客账号
+CSDN博客：[非典型技术宅](https://blog.csdn.net/mirco_mcu)  
+个人公众号：  
+![非典型技术宅](https://images.gitee.com/uploads/images/2020/1206/000348_4fc388da_2157114.jpeg "非典型技术宅.jpg")
