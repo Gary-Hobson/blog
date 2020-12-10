@@ -8,6 +8,7 @@ CSDN博客：[非典型技术宅](https://blog.csdn.net/mirco_mcu)
 
 [gitee 地址](https://gitee.com/garyhobson/Blog-Attachment)  
 [github 地址](https://github.com/Gary-Hobson/Blog-Attachment)
+[蓝奏云下载](https://wwe.lanzous.com/b015yb1ra)  密码:fgu8
 
 ## 博客列表
 ### 一、 STM32 USB虚拟串口
